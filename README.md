@@ -6,7 +6,7 @@ The dataset includes features such as age, sex, chest pain type, resting blood p
 
 The problem is approached by framing it as a binary classification task, where the goal is to predict the presence (coded as 1) or absence (coded as 0) of heart disease. Key research questions include: What are the most significant predictors of heart disease within this dataset? How do various classification algorithms perform in terms of accuracy and reliability? What is the impact of different data preprocessing techniques on model performance?
 
-#Project Organization
+# Project Organization
 
 
 
