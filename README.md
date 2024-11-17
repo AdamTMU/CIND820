@@ -1,4 +1,4 @@
-# CIND820
+# Predicting Heart Disease Risk: A Classification Approach Using Demographic and Biomarker Data
 Predicting Heart Disease Risk: A Classification Approach Using Demographic and Biomarker Data
 
 This project leverages the Cleveland database from the UCI Heart Disease dataset to develop and evaluate predictive models for diagnosing heart disease based on a range of patient features.
