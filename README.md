@@ -35,11 +35,11 @@ Macro Average: Precision: 0.85, Recall: 0.84, F1-score: 0.84 The macro average t
 
 Weighted Average Precision: 0.85, Recall: 0.85, F1-score: 0.84 The weighted average accounts for the imbalanced dataset (more instances of class 0 than class 1). Since the number of instances in each class is weighted, the weighted averages are very similar to the macro averages, which is a good sign. It suggests the model is not heavily biased toward the larger class (class 0) and is performing fairly well for both classes.
 
-# Key Takeaways
-The Naive Bayes model is performing well overall, with an accuracy of 85%, and it’s especially strong at predicting the "no heart disease" class (class 0). The slightly lower recall for class 1 (heart disease) compared to class 0 indicates that the model might miss some cases of heart disease. The results are fairly consistent, as evidenced by the relatively small standard deviation in cross-validation scores.
-
 # Suggestions for Improvement
 Improving Recall for Class 1: The model could potentially be improved in detecting heart disease cases by exploring techniques like oversampling (e.g., SMOTE), to make it more sensitive to class 1. In addition hyperparameter tuning such as treshold adjustment could also further improve performance.
 
-# Key Takeways
+# Improved Results
 The precision and recall for both classes are now more balanced, and the recall for class 1 (heart disease) has improved significantly to 92%. This suggests that the adjustments (SMOTE and threshold tuning) helped the model become much better at detecting heart disease cases without sacrificing too much precision. Our applied strategies were effective in improving the model's ability to detect heart disease cases while maintaining a good performance on the "no heart disease" class.
+
+# Key Takeways
+Based on the analysis and model evaluation, Naive Bayes emerged as the best-performing machine learning model for predicting heart disease. It demonstrated strong performance with a weighted average precision of 92%, indicating its ability to accurately identify heart disease cases across different classes. Feature selection using the ANOVA F-test revealed the five most important predictors of heart disease, which were: Thalassemia, the number of major vessels colored by fluoroscopy (ca), ST depression induced by exercise (oldpeak), maximum heart rate achieved (thalach), and the presence of exercise-induced angina (exang). These features were found to have the highest statistical significance in distinguishing between individuals with and without heart disease. This analysis highlights the effectiveness of both Naive Bayes and the selected features in providing meaningful insights for heart disease prediction.
